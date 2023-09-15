@@ -1,0 +1,6 @@
+min_eps: 0.01
+visualize_training: false
+reward_shaping: true
+gamma: 0.99
+alpha: 0.1
+lambda_: 0.99
