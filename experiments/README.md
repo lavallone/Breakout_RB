@@ -13,16 +13,16 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/3x3_ball/q-ball-3x3-dx2sx.gif"> </figure> </center></td>
-    <td><center><figure> <img src="gifs/3x3_ball/sarsa-ball-3x3-dx2sx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/3x3_ball/q-ball-3x3-sx2dx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/3x3_ball/sarsa-ball-3x3-sx2dx.gif"> </figure></center></td>
+    <td><center> <figure> <img src="gifs/3x3_ball/q-ball-3x3-dx2sx.gif" width="200"> </figure> </center></td>
+    <td><center><figure> <img src="gifs/3x3_ball/sarsa-ball-3x3-dx2sx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/3x3_ball/q-ball-3x3-sx2dx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/3x3_ball/sarsa-ball-3x3-sx2dx.gif" width="200"> </figure></center></td>
   </tr>
   <tr>
-    <td><center><b>Q-learning</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b><b>SARSA</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b>Q-learning</b> <br> ⏩⏩⏩</center></td>
-    <td><center><b>SARSA</b> <br> ⏩⏩⏩</center></td>
+    <td><center> <b>Q-learning</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b><b>SARSA</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b>Q-learning</b> <br> ⏩⏩⏩ </center></td>
+    <td><center> <b>SARSA</b> <br> ⏩⏩⏩ </center></td>
   </tr>
 </table>
 
@@ -30,16 +30,16 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/3x3_fire_ball/q-fire-ball-3x3-dx2sx.gif"> </figure> </center></td>
-    <td><center><figure> <img src="gifs/3x3_fire_ball/sarsa-fire-ball-3x3-dx2sx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/3x3_fire_ball/q-fire-ball-3x3-sx2dx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/3x3_fire_ball/sarsa-fire-ball-3x3-sx2dx.gif"> </figure></center></td>
+    <td><center> <figure> <img src="gifs/3x3_fire_ball/q-fire-ball-3x3-dx2sx.gif" width="200"> </figure> </center></td>
+    <td><center><figure> <img src="gifs/3x3_fire_ball/sarsa-fire-ball-3x3-dx2sx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/3x3_fire_ball/q-fire-ball-3x3-sx2dx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/3x3_fire_ball/sarsa-fire-ball-3x3-sx2dx.gif" width="200"> </figure></center></td>
   </tr>
   <tr>
-    <td><center><b>Q-learning</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b><b>SARSA</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b>Q-learning</b> <br> ⏩⏩⏩</center></td>
-    <td><center><b>SARSA</b> <br> ⏩⏩⏩</center></td>
+    <td><center> <b>Q-learning</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b><b>SARSA</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b>Q-learning</b> <br> ⏩⏩⏩ </center></td>
+    <td><center> <b>SARSA</b> <br> ⏩⏩⏩ </center></td>
   </tr>
 </table>
 
@@ -51,16 +51,16 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/4x4_ball/q-ball-4x4-dx2sx.gif"> </figure> </center></td>
-    <td><center><figure> <img src="gifs/4x4_ball/sarsa-ball-4x4-dx2sx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/4x4_ball/q-ball-4x4-sx2dx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/4x4_ball/sarsa-ball-4x4-sx2dx.gif"> </figure></center></td>
+    <td><center> <figure> <img src="gifs/4x4_ball/q-ball-4x4-dx2sx.gif" width="200"> </figure> </center></td>
+    <td><center><figure> <img src="gifs/4x4_ball/sarsa-ball-4x4-dx2sx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/4x4_ball/q-ball-4x4-sx2dx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/4x4_ball/sarsa-ball-4x4-sx2dx.gif" width="200"> </figure></center></td>
   </tr>
   <tr>
-    <td><center><b>Q-learning</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b><b>SARSA</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b>Q-learning</b> <br> ⏩⏩⏩</center></td>
-    <td><center><b>SARSA</b> <br> ⏩⏩⏩</center></td>
+    <td><center> <b>Q-learning</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b><b>SARSA</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b>Q-learning</b> <br> ⏩⏩⏩ </center></td>
+    <td><center> <b>SARSA</b> <br> ⏩⏩⏩ </center></td>
   </tr>
 </table>
 
@@ -68,16 +68,16 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/4x4_fire_ball/q-fire-ball-4x4-dx2sx.gif"> </figure> </center></td>
-    <td><center><figure> <img src="gifs/4x4_fire_ball/sarsa-fire-ball-4x4-dx2sx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/4x4_fire_ball/q-fire-ball-4x4-sx2dx.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/4x4_fire_ball/sarsa-fire-ball-4x4-sx2dx.gif"> </figure></center></td>
+    <td><center> <figure> <img src="gifs/4x4_fire_ball/q-fire-ball-4x4-dx2sx.gif" width="200"> </figure> </center></td>
+    <td><center><figure> <img src="gifs/4x4_fire_ball/sarsa-fire-ball-4x4-dx2sx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/4x4_fire_ball/q-fire-ball-4x4-sx2dx.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/4x4_fire_ball/sarsa-fire-ball-4x4-sx2dx.gif" width="200"> </figure></center></td>
   </tr>
   <tr>
-    <td><center><b>Q-learning</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b><b>SARSA</b> <br> ⏪⏪⏪</center></td>
-    <td><center><b>Q-learning</b> <br> ⏩⏩⏩</center></td>
-    <td><center><b>SARSA</b> <br> ⏩⏩⏩</center></td>
+    <td><center> <b>Q-learning</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b><b>SARSA</b> <br> ⏪⏪⏪ </center></td>
+    <td><center> <b>Q-learning</b> <br> ⏩⏩⏩ </center></td>
+    <td><center> <b>SARSA</b> <br> ⏩⏩⏩ </center></td>
   </tr>
 </table>
 
@@ -87,12 +87,12 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/8x3/ball-8x3.gif"> </figure> </center></td>
-    <td><center><figure> <img src="gifs/8x3/fire-ball-8x3.gif"> </figure></center></td>
+    <td><center> <figure> <img src="gifs/8x3/ball-8x3.gif"  width="200"> </figure> </center></td>
+    <td><center><figure> <img src="gifs/8x3/fire-ball-8x3.gif"  width="200"> </figure></center></td>
   </tr>
   <tr>
-    <td><center><b>SARSA</b> <br> ⏩⏩⏩ <br> ⚾️</center></td>
-    <td><center><b>SARSA</b> <br> ⏩⏩⏩ <br> 🔥⚾️</center></td>
+    <td><center> <b>SARSA</b> <br> ⏩⏩⏩ <br> ⚾️ </center></td>
+    <td><center> <b>SARSA</b> <br> ⏩⏩⏩ <br> 🔥⚾️ </center></td>
   </tr>
 </table>
 
@@ -104,10 +104,10 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/Imitation/EXPERT.gif"> </figure> </center></td>
+    <td><center> <figure> <img src="gifs/Imitation/EXPERT.gif"  width="200"> </figure> </center></td>
   </tr>
   <tr>
-    <td><center><b>SARSA</b> <br> ⏪⏪⏪ <br> 🔥 </center></td>
+    <td><center> <b>SARSA</b> <br> ⏪⏪⏪ <br> 🔥 </center></td>
   </tr>
 </table>
 
@@ -115,15 +115,15 @@ To highlight strengths and weaknesses of the methods, we differentiated the expe
 
 <table>
   <tr>
-    <td><center> <figure> <img src="gifs/Imitation/LEARNER-ball-3x3.gif"> </figure> </center></td>
-    <td><center><figure> <img src="gifs/Imitation/LEARNER-fire-ball-3x3.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/Imitation/LEARNER-ball-4x4.gif"> </figure></center></td>
-    <td><center><figure> <img src="gifs/Imitation/LEARNER-fire-ball-4x4.gif"> </figure></center></td>
+    <td><center> <figure> <img src="gifs/Imitation/LEARNER-ball-3x3.gif" width="200"> </figure> </center></td>
+    <td><center><figure> <img src="gifs/Imitation/LEARNER-fire-ball-3x3.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/Imitation/LEARNER-ball-4x4.gif" width="200"> </figure></center></td>
+    <td><center><figure> <img src="gifs/Imitation/LEARNER-fire-ball-4x4.gif" width="200"> </figure></center></td>
   </tr>
   <tr>
-    <td><center><b>SARSA</b> <br> ⏪⏪⏪ <br> ⚾️ <br> <b>3x3</center></td>
-    <td><center><b>SARSA</b> <br> ⏪⏪⏪ <br> 🔥⚾️ <br> <b>3x3</center></td>
-    <td><center><b>SARSA</b> <br> ⏪⏪⏪ <br> ⚾️ <br> <b>4x4</b></center></td>
-    <td><center><b>SARSA</b> <br> ⏪⏪⏪ <br> 🔥⚾️ <br> <b>4x4</b></center></td>
+    <td><center> <b>SARSA</b> <br> ⏪⏪⏪ <br> ⚾️ <br> <b>3x3</b> </center></td>
+    <td><center> <b>SARSA</b> <br> ⏪⏪⏪ <br> 🔥⚾️ <br> <b>3x3</b> </center></td>
+    <td><center> <b>SARSA</b> <br> ⏪⏪⏪ <br> ⚾️ <br> <b>4x4</b> </center></td>
+    <td><center> <b>SARSA</b> <br> ⏪⏪⏪ <br> 🔥⚾️ <br> <b>4x4</b> </center></td>
   </tr>
 </table>
