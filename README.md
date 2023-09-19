@@ -51,7 +51,7 @@ def learn_dfa(output_dir) -> pythomata.dfa.DFA:
     return new_dfa
 ```
 
-Depending on the case, *expert.py* takes on different "roles". In *imitation learning* scenario represents the *expert* which produces traces for the *learner*. In the normal scenario, it embodies the *Restraining Bolt* agent that needs both to learn the optimal policy and to act so as to conform as much as possible to the LTLF/LDLf specifications. 
+Depending on the case, *expert.py* takes on different "roles". In the *imitation learning* scenario represents the *expert* which produces traces for the *learner*. In the normal scenario, instead, it embodies the *Restraining Bolt* agent that needs both to learn the optimal policy and to act so as to conform as much as possible to the LTLF/LDLf specifications. 
 
 ## References
 <a id="1">[1]</a> 
