@@ -144,7 +144,7 @@ class AutomataPolicy(Policy):
         self.value_max = value_max
         self.value_min = value_min
 
-        self.policies = defaultdict(self.policy_factory)
+        self.policies = defaultdict(self.policy_factory) # new way of instantiating a dictionary
         self.counts = defaultdict(int)
 
     def extract_q(self, obs):
@@ -156,6 +156,7 @@ class AutomataPolicy(Policy):
         policy.set_agent(self.agent)
         return policy
 
+    # the agent is set after the init of policy()
     def set_agent(self, agent):
         super().set_agent(agent)
         for p in self.policies.values():

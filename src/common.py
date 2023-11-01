@@ -51,12 +51,15 @@ def make_goal(nb_columns: int = 3, direction: str = "sx2dx") -> str:
 def extract_breakout_fluents(obs, action) -> PLInterpretation:
     brick_matrix = obs["bricks_matrix"]  # type: np.ndarray
     previous_brick_matrix = obs["previous_bricks_matrix"]  # type: np.ndarray
+    # here we analyze which columns are broken in the current and in the previous bricks matrix
     previous_broken_columns = np.all(previous_brick_matrix == 0.0, axis=1)
     current_broken_columns = np.all(brick_matrix == 0.0, axis=1)
     compare = (previous_broken_columns == current_broken_columns)  # type: np.ndarray
+    # if nothing changed, we return {}
     if compare.all():
         result = PLInterpretation(set())
         return result
+    # if a column 'i' has been broken, we return the fluent 'c_i'
     else:
         index = np.argmin(compare)
         fluent = "c" + str(index)

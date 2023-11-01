@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 EMPTY = "_"
 SEPARATOR = ";"
 
-
+# utility class for the one below
 class TemporalGoalLogger(TemporalGoal):
     """This class represents a dummy temporal goal for keeping track of the traces."""
 
@@ -61,7 +61,7 @@ class TemporalGoalLogger(TemporalGoal):
         return False
 
 
-# this is the final class for our gym environment
+# gym environment specifically implemented for 'Imitation purposes'
 class TemporalGoalWrapperLogTraces(gym.Wrapper):
 
     def __init__(self, env: TemporalGoalWrapper,

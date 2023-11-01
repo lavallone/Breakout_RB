@@ -51,14 +51,14 @@ def make_env(config: BreakoutConfiguration, output_dir, goal_reward: float = 100
     unwrapped_env = BreakoutExpertWrapper(config, action_type)
 
     print("Instantiating the DFA...")
-    formula_string = make_goal(config.brick_cols, direction)
-    formula = LDLfParser()(formula_string)
+    formula_string = make_goal(config.brick_cols, direction) # is a simple string representing LDL_f formula
+    formula = LDLfParser()(formula_string) # flloat
     labels = {"c{}".format(i) for i in range(config.brick_cols)}
     # abstract class to represent a temporal goal
     tg = TemporalGoal(formula=formula,
                       reward=goal_reward, # reward when the formula is satisfied
                       labels=labels,
-                      reward_shaping=reward_shaping, # never used!
+                      reward_shaping=reward_shaping,
                       zero_terminal_state=False,
                       extract_fluents=extract_breakout_fluents)
 
@@ -92,6 +92,7 @@ def make_env(config: BreakoutConfiguration, output_dir, goal_reward: float = 100
     # these two files are filled during the learning process
     positive_traces_path = Path(output_dir, "positive_traces.txt")
     negative_traces_path = Path(output_dir, "negative_traces.txt")
+    # class only needed for the 'Imitation purposes'
     env = TemporalGoalWrapperLogTraces(env, extract_breakout_fluents, positive_traces_path, negative_traces_path)
 
     return env
@@ -128,7 +129,6 @@ def run_expert(arguments, configuration):
     env.seed(arguments.seed)
 
     policy = AutomataPolicy((-2, ), nb_steps=arguments.train_steps/10, value_max=1.0, value_min=configuration.min_eps)
-
     algorithm = Sarsa if arguments.algorithm == "sarsa" else QLearning
     agent = Agent(algorithm(None,
                         env.action_space,
@@ -137,6 +137,7 @@ def run_expert(arguments, configuration):
                         lambda_=configuration.lambda_),
                   policy=policy,
                   test_policy=EpsGreedyQPolicy(eps=0.01))
+    # during Agent 'fit' the agent is set to the choosen policy
 
     with wandb.init(entity="lavallone", project="Restraining Bolts", name=run_name, mode="online"):
         # here it starts the learning

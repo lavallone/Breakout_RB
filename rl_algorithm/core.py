@@ -254,6 +254,7 @@ class Agent(ABC):
     def reset(self):
         self.brain.reset()
 
+    # the actual training pipeline
     def fit(self, env, nb_steps: int = 10000, visualize: bool = False,
             callbacks: List[Callback] = None) -> History:
         """
@@ -281,6 +282,7 @@ class Agent(ABC):
 
         return history
 
+    # main train loop
     def _train_loop(self, env, render: bool = False, callbacks: List[Callback] = None):
         agent = self
         callbacks = [] if callbacks is None else callbacks
