@@ -1,4 +1,4 @@
-# Breakout_RB
+# Restraining Bolts on Breakout environment
 <p align="center">
   <img src="https://i.imgur.com/q5Z5hKj.png" width="500" height="135">
 </p>
