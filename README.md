@@ -1,9 +1,9 @@
-# Restraining Bolts on Breakout environment
+# Restraining Bolts applied to Breakout game
 <p align="center">
   <img src="https://i.imgur.com/q5Z5hKj.png" width="500" height="135">
 </p>
 
-This repository has been created in conjunction with the essay ***Learning and Reasoning as yin and yang of future AI*** that I produced for the *Planning and Reasoning* course held by professor Paolo Liberatore, where I adresssed the relative new research trend of helping *Reinforcemenet Learning* (**RL**) algorithms with *Knowledge Representation* (**KR**) and conducted an extensive analysis of pertinent research papers about the topic. To make the study even more complete, I decided to run some experiments in order to acquire practical, hands-on experience of the elucidated methodologies.
+This repository has been created in conjunction with the essay ***Learning and Reasoning as yin and yang of future AI*** that I produced for the *Planning and Reasoning* course held by professor Paolo Liberatore, where I adresssed the relative new research trend of helping *Reinforcemenet Learning* (**RL**) algorithms with *Knowledge Representation* (**KR**) and conducted an extensive analysis of pertinent research papers about the topic. To make the study even more complete, I decided to run some *experiments* 🔬🧪 in order to acquire practical, hands-on experience of the elucidated methodologies.
 
 In particular I tested and implemented ***Restraining Bolts*** [1]. I was also interested in reproducing the results of [2], where *restraining bolts* are still involved but this time the logical specifications which aim to restrain agent behavior are learnt thanks to an *imitation learning* process. The designated RL enviroment for launching the experiments is the *Breakout* 🎮 environment. Choosing this type of game was, in my opinion, the most straightforward and smart way to let external readers comprehend the methods' inherent potential. 
 
