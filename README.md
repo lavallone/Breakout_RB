@@ -1,4 +1,4 @@
-# Restraining Bolts applied to Breakout game
+# 🔬🧪 Experiments on Restraining Bolts applied to Breakout game
 <p align="center">
   <img src="https://i.imgur.com/q5Z5hKj.png" width="500" height="135">
 </p>
