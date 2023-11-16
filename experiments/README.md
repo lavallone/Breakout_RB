@@ -1,4 +1,4 @@
-# Breakout 💥 Experiments
+# 🔬🧪 Experiments on Restraining Bolts
 In the following there are all the results of the *experiments* made with the purpose of investigating and testinig further the techniques explained in "*Foundations for Restraining Bolt: Reinforcement Learning with LTLf/LDLf Restraining Specifications*" and in "*Imitation Learning over Heterogeneous Agents with Restraining Bolts*" papers. 
 
 > The choosen environment is the **Breakout** game where the aim is to break all the present bricks. Thanks to ***restraining bolts*** (logical specifications which restrains agent behaviour in a custom manner), we can guide the way in which is possible to break the bricks. In these experiments it's shown how we can teach the breaking direction: both *left-to-right* ⏩⏩⏩ and *right-to-left* ⏪⏪⏪. We employed two different RL algorithms: ***Q-learning*** and ***SARSA***. In all the experiments is shown which one is used. 
